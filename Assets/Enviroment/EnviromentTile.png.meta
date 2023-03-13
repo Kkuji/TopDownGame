@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -117,48 +117,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: First Asset pack_0
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 372
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a13ea3219ebcaa749bcf684699da9627
-      internalID: 1104415767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_1
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 372
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f18371eafbd691641b0ad5f48cebddae
-      internalID: -1293705759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_2
       rect:
         serializedVersion: 2
@@ -196,90 +154,6 @@ TextureImporter:
       bones: []
       spriteID: e8925a89293391841919b0f36abc2dc0
       internalID: -1525797593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_4
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 360
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b92e8953b587ef40b2d4327323ee196
-      internalID: -524440267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_5
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 360
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abb4dda3440b7b34fadc3e2748a56779
-      internalID: 1288623065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_6
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 360
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb0ca5340f073254a8f7516f916d8fff
-      internalID: 1973166813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_7
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 360
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f6bdbffa58baec4b82595bfba5898e4
-      internalID: 350753762
       vertices: []
       indices: 
       edges: []
@@ -490,90 +364,6 @@ TextureImporter:
       bones: []
       spriteID: 960d2fb3ca06cfd43bbcf6cb7dd3cf63
       internalID: -159234615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_18
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 348
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ce35ac8d1329a346b9a6017683692bb
-      internalID: 1802937504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_19
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 348
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fd87a16d5f7877499447f104b1edd25
-      internalID: 1642003428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_20
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 348
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab8d89350f48b7044aee0155218a0b9a
-      internalID: -584919244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_21
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 348
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54590d0e9107a444d80140bbca19d555
-      internalID: -1611291619
       vertices: []
       indices: 
       edges: []
@@ -852,90 +642,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_35
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 336
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df130fdee63a4ab43a63db3a04da4975
-      internalID: -602180216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_36
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 336
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a01df9858b89d44188aa3d22e922647
-      internalID: 377443086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_37
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 336
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef85ec4b439b24c48b92bc3d9c6ba660
-      internalID: -1530623709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_38
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 336
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a37f0db9ae797504dabc42a2c6ef79fa
-      internalID: 344837245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_39
       rect:
         serializedVersion: 2
@@ -1209,132 +915,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_52
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c1d0d27d5fb15949a496d9ae4a1f355
-      internalID: -1152456157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_53
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3b0f05954122e94d82cd2fffa2da04c
-      internalID: 1017815672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_54
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbe1ed7f59c1c204cb94564919dc7094
-      internalID: -1128138793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_55
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2ad3706d4e7baa44ba9f1020b595a52
-      internalID: -709557050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_56
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c941be02dc0a4e5448df9d6caef14af3
-      internalID: 1234318591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_57
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 324
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72dade8deb2fe624d8828e239ebaa5bb
-      internalID: -1846592139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_58
       rect:
         serializedVersion: 2
@@ -1498,132 +1078,6 @@ TextureImporter:
       bones: []
       spriteID: 1732f61d862c2a34cada83a4792a1000
       internalID: -295739058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_66
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5e369dff9927704ebd571117f904078
-      internalID: -1659108600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_67
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbad44c5244ab864e8a68f6f9f5e398e
-      internalID: -170550431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_68
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e779383917bbb6408f4e8d4a5f57cc1
-      internalID: 1292221902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_69
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 135b69f281e9c444f832fd0ab5a0b9d7
-      internalID: 1070823821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_70
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acead56ccfb6d764392f665d7d463e5a
-      internalID: -2121916698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_71
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 312
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc0ab49ac3fe9424f98543dfd406424e
-      internalID: -1214923973
       vertices: []
       indices: 
       edges: []
@@ -1907,122 +1361,21 @@ TextureImporter:
         serializedVersion: 2
         x: 24
         y: 300
-        width: 12
-        height: 12
+        width: 72
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -24, y: -39}
+        - {x: -24, y: 5}
+        - {x: 24, y: 5}
+        - {x: 24, y: -39}
       tessellationDetail: 0
       bones: []
       spriteID: 98ec95fe81609224ba83bdbbb0e00bad
       internalID: 571152945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_86
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 300
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da8c51a3d257acc4190061cabe06e9cc
-      internalID: -1712752982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_87
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 300
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 767db45bd8c77ed4ca15aa77a0945af6
-      internalID: 1765954272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_88
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 300
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e143869933d2dbe4d90f08b9cc5c60e9
-      internalID: 818857712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_89
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 300
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 913fa177019d15945b906a410a9037c4
-      internalID: -717748940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_90
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 300
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db5c8955e16c03d4cb7c72f3d6a7218e
-      internalID: 155259606
       vertices: []
       indices: 
       edges: []
@@ -2406,216 +1759,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_109
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 276
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f66de5769eca37049b14aad69c3a16aa
-      internalID: -1742270218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_110
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 276
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2bab95458ab19349be998a14701ffb6
-      internalID: -255531048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_111
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 276
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 111b29ad08c4e0a4795671c5a1bc527b
-      internalID: 1156668492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_112
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 276
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f11d80b7aaab73f4b943f960dda36bfe
-      internalID: 115050171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_113
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4975cfeaee0c6b34f9022e660f714a1f
-      internalID: -471868503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_114
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fae47860048c15a41bd0d15841400613
-      internalID: 1621123946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_115
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2434658baa93d4b4e88b66d7ec7d506c
-      internalID: -2095885976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_116
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbfdc118eaa673749b1e4c811c0d82bf
-      internalID: -2064124415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_117
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42e7e5de5deaa7e46a0529025ffb439c
-      internalID: -1331210918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_118
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 264
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bb2fc0cbdc7437489e3dd2f3e9373c6
-      internalID: 1127573661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_119
       rect:
         serializedVersion: 2
@@ -2742,174 +1885,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_125
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 426a1d78c8b471b4792d4a021754573d
-      internalID: 539233234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_126
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8012b8844b65f2c42a8a92d9d21e0ede
-      internalID: 1857457435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_127
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b04e00eae02200438e940c23f12125b
-      internalID: -829611032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_128
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f9ca4c7aba5bb549b5f47c1df0ad89f
-      internalID: 458078727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_129
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d9be79cf7d5a644ca79aa83603a086a
-      internalID: 308815410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_130
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a375e0ebe26f8d47bfbab65c7458115
-      internalID: 1810297799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_131
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14207f5c718225b4ca7d667ac13b75e0
-      internalID: 699617978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_132
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb3a65ef861442f44ad14b6120c4f76f
-      internalID: 235588605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_133
       rect:
         serializedVersion: 2
@@ -2998,39 +1973,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 168
-        y: 252
-        width: 12
-        height: 12
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: 1
       bones: []
       spriteID: 25e2fcdce7586224fac8ea73b345ed59
       internalID: -397171116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_138
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 252
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1668fd05d776bde45af6a9d901c44b73
-      internalID: 2141522273
       vertices: []
       indices: 
       edges: []
@@ -3167,80 +2121,21 @@ TextureImporter:
         serializedVersion: 2
         x: 12
         y: 240
-        width: 12
-        height: 12
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: -18}
+        - {x: -12, y: -12}
+        - {x: 13, y: -12}
+        - {x: 8, y: -18}
       tessellationDetail: 0
       bones: []
       spriteID: 385de6e1aa8ffea45a2b8a263e308955
       internalID: 1675443583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_146
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a62958b7e9c24f846aea95e79bc30423
-      internalID: 2084865755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_147
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30ac4ddc004ea5a4e8b9f314772fa793
-      internalID: -263110138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_148
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b47ef9529f70c0c4a8de9f08ecf3d230
-      internalID: 345220586
       vertices: []
       indices: 
       edges: []
@@ -3251,38 +2146,21 @@ TextureImporter:
         serializedVersion: 2
         x: 60
         y: 240
-        width: 12
-        height: 12
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -3, y: -14}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 3, y: -14}
       tessellationDetail: 0
       bones: []
       spriteID: 16dcf1997b2964648baea4525393bf0e
       internalID: -1928249961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_150
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 329b21dc7af0c164cb8e3f14f57e6c43
-      internalID: -1598961805
       vertices: []
       indices: 
       edges: []
@@ -3293,8 +2171,8 @@ TextureImporter:
         serializedVersion: 2
         x: 84
         y: 240
-        width: 12
-        height: 12
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3304,27 +2182,6 @@ TextureImporter:
       bones: []
       spriteID: 1e1421f427c4c1849bda7b4de01c003d
       internalID: -1546587604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_152
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fa1f5a2c23111143994fd3c02f7101e
-      internalID: -1255564309
       vertices: []
       indices: 
       edges: []
@@ -3430,48 +2287,6 @@ TextureImporter:
       bones: []
       spriteID: e16d0f1dbe81e1948aaa3eff2ee0511d
       internalID: 2057886287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_158
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee66e2795e8c10e47b451376fcb233fd
-      internalID: -1690438609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_159
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 240
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ea2128abb5ab6241acda07a6d5b7e91
-      internalID: -1410990938
       vertices: []
       indices: 
       edges: []
@@ -7929,111 +6744,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_372
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 84
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d8239c435b51b04b8fa566c708034d5
-      internalID: 368265723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_373
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 84
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f1407a6e55efbb48ba4a0a95cd323f4
-      internalID: -684663252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_374
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 84
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0166f93b71b95a64f832b0deed0817ad
-      internalID: -1866590758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_375
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 84
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2f69cd26b186f348afdc3459b8d749b
-      internalID: -895479419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_376
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 84
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 714c763070a8eb243b3768d3359f37f4
-      internalID: -836190704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_377
       rect:
         serializedVersion: 2
@@ -8323,111 +7033,6 @@ TextureImporter:
       bones: []
       spriteID: 2445c7ab7ab1a9b43a0a4e07d67f37bb
       internalID: 670995423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_391
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 72
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3ccfcdd2ea6c5d45ae882cc7a0496e1
-      internalID: -1778457542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_392
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 72
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d98de5821b05d7b4cbdafa502efded9d
-      internalID: -1572978074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_393
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 72
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbb4d9618e3b4f34486c4ce2fffe41a6
-      internalID: -1841702225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_394
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 72
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10cc69235395ca54da5e55c1746d94bb
-      internalID: -379500106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_395
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 72
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb25f45f6ecc0954ea19bdb42b5e9d83
-      internalID: 496974318
       vertices: []
       indices: 
       edges: []
@@ -8773,102 +7378,26 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 216
-        y: 60
-        width: 12
-        height: 12
+        y: 36
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -18, y: -4}
+        - {x: -18, y: -1}
+        - {x: 25, y: -1}
+        - {x: 25, y: 23}
+        - {x: 13, y: 23}
+        - {x: 13, y: 26}
+        - {x: 26, y: 26}
+        - {x: 26, y: -4}
       tessellationDetail: 0
       bones: []
       spriteID: b4cb75c4f2da9444e9f261ea171b49c6
       internalID: -855589865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_413
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 60
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a71ad4764bcca4c4f973e936193fb8c8
-      internalID: -1836119028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_414
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 60
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 474b67243625df5439ae26738aac109a
-      internalID: 947061888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_415
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 60
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 174a7ce0d4cd1d14497cdd8c0ad5704f
-      internalID: 1934954356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_416
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 60
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510553de53e1bfc4d867c9d936166b61
-      internalID: 899574758
       vertices: []
       indices: 
       edges: []
@@ -9231,69 +7760,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First Asset pack_434
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 48
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2d92bde1579be045a1097c66ae00348
-      internalID: 1890735425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_435
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 48
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c885107d4dc16ff48a3700695299c4d0
-      internalID: 2049596325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_436
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 48
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b96c0327f5e71404fa5ee62b46475c2f
-      internalID: 322356231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: First Asset pack_437
       rect:
         serializedVersion: 2
@@ -9646,48 +8112,6 @@ TextureImporter:
       bones: []
       spriteID: 1e066c4a056edfe43b9219f185329ad9
       internalID: 390967034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_454
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 36
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8af9818c61f752a4d90564c30728d89f
-      internalID: -576586961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First Asset pack_455
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 36
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbd7a9e081f15574584b2bb87efc0ba1
-      internalID: -683150783
       vertices: []
       indices: 
       edges: []
