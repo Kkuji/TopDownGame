@@ -1,27 +1,27 @@
 using UnityEngine;
 
-public class PlayerMover : MonoBehaviour
+public class EnemyMover : MonoBehaviour
 {
-    [SerializeField] private float _maxSpeed;
+    [SerializeField] private float _distanceWhenChase;
     [SerializeField] private float _speed;
+    [SerializeField] private Transform _target;
 
+    private SpriteRenderer _renderer;
     private Rigidbody2D _rigidbody;
-    private bool _isAttacking = false;
+    private float _currentDistance;
     private Vector2 _direction;
     private Player _player;
 
-    public Vector2 Direction => _direction;
-
     private void Start()
     {
-        _player = GetComponent<Player>();
+        _player = _target.gameObject.GetComponent<Player>();
+        _renderer = GetComponent<SpriteRenderer>();
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        _direction.x = Input.GetAxisRaw("Horizontal");
-        _direction.y = Input.GetAxisRaw("Vertical");
+        _currentDistance = (_target.position - transform.position).magnitude;
     }
 
     private void FixedUpdate()
@@ -33,12 +33,13 @@ public class PlayerMover : MonoBehaviour
     {
         if (_player.currentHealth > 0)
         {
-            if (!_isAttacking && _rigidbody.velocity.magnitude < _maxSpeed)
+            if (_currentDistance < _distanceWhenChase)
             {
+                _direction = (_target.position - transform.position).normalized;
                 _rigidbody.AddForce(_direction.normalized * _speed * Time.deltaTime);
+                _renderer.flipX = _target.position.x < transform.position.x;
             }
-
-            if (_direction == Vector2.zero || _isAttacking)
+            else
             {
                 _rigidbody.velocity = Vector2.zero;
             }
@@ -47,15 +48,5 @@ public class PlayerMover : MonoBehaviour
         {
             _rigidbody.velocity = Vector2.zero;
         }
-    }
-
-    public void LockMovement()
-    {
-        _isAttacking = true;
-    }
-
-    public void UnLockMovement()
-    {
-        _isAttacking = false;
     }
 }
