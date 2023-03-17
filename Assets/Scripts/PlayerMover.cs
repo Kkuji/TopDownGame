@@ -1,12 +1,14 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Player))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMover : MonoBehaviour
 {
     [SerializeField] private float _maxSpeed;
     [SerializeField] private float _speed;
 
-    private Rigidbody2D _rigidbody;
     private bool _isAttacking = false;
+    private Rigidbody2D _rigidbody;
     private Vector2 _direction;
     private Player _player;
 

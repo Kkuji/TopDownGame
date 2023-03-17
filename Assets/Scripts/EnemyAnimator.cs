@@ -1,19 +1,23 @@
 using UnityEngine;
+using System.Collections;
 
-public class EnemyAnimator : MonoBehaviour
+[RequireComponent(typeof(Enemy))]
+[RequireComponent(typeof(Rigidbody2D))]
+public class EnemyAnimator : BaseAnimator
 {
     private Rigidbody2D _rigidbody;
-    private Animator _animator;
     private Enemy _enemy;
 
     private void Awake()
     {
         _enemy = GetComponent<Enemy>();
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
+        AssignAction();
+    }
 
-        _enemy.GetHitAction += Hit;
-        _enemy.DieAction += Die;
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
@@ -28,13 +32,35 @@ public class EnemyAnimator : MonoBehaviour
         }
     }
 
-    private void Hit()
+    protected override void Die()
     {
-        _animator.SetTrigger("Hit");
+        StartCoroutine(DieCorutine());
     }
 
-    private void Die()
+    private IEnumerator DieCorutine()
     {
-        //StartCoroutine(DieCorutine());
+        _animator.SetTrigger("Die");
+        yield return new WaitForSeconds(_dieAnimDuration);
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (_enemy != null)
+        {
+            UnassignAction();
+        }
+    }
+
+    protected override void AssignAction()
+    {
+        _enemy.GetHitAction += Hit;
+        _enemy.DieAction += Die;
+    }
+
+    protected override void UnassignAction()
+    {
+        _enemy.GetHitAction -= Hit;
+        _enemy.DieAction -= Die;
     }
 }

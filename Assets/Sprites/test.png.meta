@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 58dfb927c56e0254f812da2deafb5acb
+guid: 924f5100c070c7c4d9a41866e1660188
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sEnemy_strip7_0
+      name: test_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7a6b76ca11872f4eb468a8bf37f6e1a
-      internalID: 1166888044
+      spriteID: 75003a8a261304f41ac0fe3d48c44510
+      internalID: -1211534528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_1
+      name: test_1
       rect:
         serializedVersion: 2
         x: 40
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26d3fc0f1b743f542a3b1e9e034a33ad
-      internalID: -362221639
+      spriteID: cb2a56c80d90c3346ae8df1f2fe12e9f
+      internalID: -2032491152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_2
+      name: test_2
       rect:
         serializedVersion: 2
         x: 80
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89688f7596ad78844b7ffef2d689ad50
-      internalID: -1949136264
+      spriteID: b34250ba34664824d8a583178a6baa5e
+      internalID: -123058523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_3
+      name: test_3
       rect:
         serializedVersion: 2
         x: 120
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6a70b4c8a6b39b449e6f72bb44ed844
-      internalID: -382651327
+      spriteID: a099e0c78d83d20428217d78f1fd3bac
+      internalID: -1582926129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_4
+      name: test_4
       rect:
         serializedVersion: 2
         x: 160
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 635191d9b62292940ab8045d74bfb769
-      internalID: 799234042
+      spriteID: ffaa42f42e05f374b938f4675c77e4bb
+      internalID: 1358899531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_5
+      name: test_5
       rect:
         serializedVersion: 2
         x: 200
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb5e6351b58fc1f4799fbfd45e279487
-      internalID: -618081918
+      spriteID: c11bc5a7682ef2c4d8799968c3846472
+      internalID: -200482017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sEnemy_strip7_6
+      name: test_6
       rect:
         serializedVersion: 2
         x: 240
@@ -257,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c5e0eae333c1564c9831444eead7d3b
-      internalID: -1469734391
+      spriteID: 3f1d0797a43fd4c45b44d88e4e082967
+      internalID: -1017291336
       vertices: []
       indices: 
       edges: []
@@ -274,13 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sEnemy_strip7_0: 1166888044
-      sEnemy_strip7_1: -362221639
-      sEnemy_strip7_2: -1949136264
-      sEnemy_strip7_3: -382651327
-      sEnemy_strip7_4: 799234042
-      sEnemy_strip7_5: -618081918
-      sEnemy_strip7_6: -1469734391
+      test_0: -1211534528
+      test_1: -2032491152
+      test_2: -123058523
+      test_3: -1582926129
+      test_4: 1358899531
+      test_5: -200482017
+      test_6: -1017291336
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

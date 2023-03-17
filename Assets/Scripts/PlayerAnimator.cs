@@ -1,24 +1,25 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayerAnimator : MonoBehaviour
+[RequireComponent(typeof(Player))]
+[RequireComponent(typeof(PlayerMover))]
+public class PlayerAnimator : BaseAnimator
 {
-    [SerializeField] private float _dieAnimDuration;
-
     private PlayerMover _playerMover;
-    private Animator _animator;
     private Player _player;
     private Vector2 _directionLast;
     private Vector2 _direction;
 
     private void Awake()
     {
-        _playerMover = GetComponent<PlayerMover>();
-        _animator = GetComponent<Animator>();
         _player = GetComponent<Player>();
+        AssignAction();
+    }
 
-        _player.GetHitAction += Hit;
-        _player.DieAction += Die;
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+        _playerMover = GetComponent<PlayerMover>();
     }
 
     private void Update()
@@ -41,12 +42,7 @@ public class PlayerAnimator : MonoBehaviour
         _animator.SetFloat("Speed", speed);
     }
 
-    private void Hit()
-    {
-        _animator.SetTrigger("Hit");
-    }
-
-    private void Die()
+    protected override void Die()
     {
         StartCoroutine(DieCorutine());
     }
@@ -57,5 +53,25 @@ public class PlayerAnimator : MonoBehaviour
         _animator.SetBool("Die", true);
         yield return new WaitForSeconds(_dieAnimDuration);
         gameObject.SetActive(false);
+    }
+
+    private void OnDestroy()
+    {
+        if (_player != null)
+        {
+            UnassignAction();
+        }
+    }
+
+    protected override void AssignAction()
+    {
+        _player.GetHitAction += Hit;
+        _player.DieAction += Die;
+    }
+
+    protected override void UnassignAction()
+    {
+        _player.GetHitAction -= Hit;
+        _player.DieAction -= Die;
     }
 }

@@ -58,8 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\PlayerSword.cs" />
+    <Compile Include="Assets\Scripts\BaseAnimator.cs" />
+    <Compile Include="Assets\Scripts\BaseCharacter.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimator.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\PlayerMover.cs" />

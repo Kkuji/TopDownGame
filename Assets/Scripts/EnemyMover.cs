@@ -1,5 +1,7 @@
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _distanceWhenChase;
