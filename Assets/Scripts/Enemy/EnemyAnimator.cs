@@ -16,7 +16,7 @@ public class EnemyAnimator : BaseAnimator
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -24,11 +24,11 @@ public class EnemyAnimator : BaseAnimator
     {
         if (_rigidbody.velocity == Vector2.zero)
         {
-            _animator.SetBool("Run", false);
+            animator.SetBool("Run", false);
         }
         else
         {
-            _animator.SetBool("Run", true);
+            animator.SetBool("Run", true);
         }
     }
 
@@ -39,7 +39,7 @@ public class EnemyAnimator : BaseAnimator
 
     private IEnumerator DieCorutine()
     {
-        _animator.SetTrigger("Die");
+        animator.SetTrigger("Die");
         yield return new WaitForSeconds(_dieAnimDuration);
         Destroy(gameObject);
     }

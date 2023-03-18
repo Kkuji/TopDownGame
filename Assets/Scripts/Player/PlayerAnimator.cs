@@ -18,7 +18,7 @@ public class PlayerAnimator : BaseAnimator
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         _playerMover = GetComponent<PlayerMover>();
     }
 
@@ -27,7 +27,7 @@ public class PlayerAnimator : BaseAnimator
         _direction = _playerMover.Direction;
 
         if (Input.GetKeyDown(KeyCode.E))
-            _animator.SetTrigger("Attack");
+            animator.SetTrigger("Attack");
 
         if (_direction.magnitude != 0)
             _directionLast = _direction;
@@ -37,9 +37,9 @@ public class PlayerAnimator : BaseAnimator
 
     private void SetAnimatorFloats(float horizontal, float vertical, float speed)
     {
-        _animator.SetFloat("Horizontal", horizontal);
-        _animator.SetFloat("Vertical", vertical);
-        _animator.SetFloat("Speed", speed);
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
+        animator.SetFloat("Speed", speed);
     }
 
     protected override void Die()
@@ -49,8 +49,8 @@ public class PlayerAnimator : BaseAnimator
 
     private IEnumerator DieCorutine()
     {
-        _animator.SetTrigger("Die");
-        _animator.SetBool("Die", true);
+        animator.SetTrigger("Die");
+        animator.SetBool("Die", true);
         yield return new WaitForSeconds(_dieAnimDuration);
         gameObject.SetActive(false);
     }
